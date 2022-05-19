@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-U SRL</title>
+    <link rel="short cut icon" href="../img/Logo AU pestaña.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div id="logo">
+            <a href="../index.html">
+                <img class="rotate" src="../img/Logo AU.png" alt="Logo" width="120px">
+            </a>
+        </div>
+
+        <nav class="header__nav">
+            <a class="header__nav__link" href="../index.html">Inicio</a>
+            <a class="header__nav__link" href="galeria.html">Galeria</a>
+            <a class="header__nav__link" href="nosotros.html">Nosotros</a>
+            <a class="header__nav__link" href="contacto.html">Contacto</a>
+            <a class="header__nav__link" href="mas-info.html">+Info</a>
+        </nav>
+
+    </header>
+
+    <h2 class="titulo__contacto">Formulario de Contacto</h2>
+
+    <main class="form">
+
+        <form class="contenedor__form" action="" method="post" enctype="multipart/form">
+
+            <div class="form__datos">
+                <label for="">Nombre:</label>
+                <input class="form__complete" type="text" placeholder="Ingrese su Nombre">
+                <label for="">Apellido:</label>
+                <input class="form__complete" type="text" placeholder="Ingrese su Apellido">
+                <label for="">Email:</label>
+                <input class="form__complete" type="email" placeholder="Ingrese su Email">
+            </div>
+
+            <div class="form__datos">
+                <label for="prov">Provincia:</label>
+                <select class="form__complete" name="provincia" id="prov">
+                    <option value selected>Seleccione su Provincia</option>
+                    <option value="bs">Buenos Aires</option>
+                    <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+                    <option value="catamarca">Catamarca</option>
+                    <option value="chaco">Chaco</option>
+                    <option value="chubut">Chubut</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="corrientes">Corrientes</option>
+                    <option value="entre-rios">Entre Ríos</option>
+                    <option value="formosa">Formosa</option>
+                    <option value="jujuy">Jujuy</option>
+                    <option value="la-pampa">La Pampa</option>
+                    <option value="la-rioja">La Rioja</option>
+                    <option value="mendoza">Mendoza</option>
+                    <option value="misiones">Misiones</option>
+                    <option value="neuquen">Neuquén</option>
+                    <option value="rio-negro">Río Negro</option>
+                    <option value="salta">Salta</option>
+                    <option value="san-juan">San Juan</option>
+                    <option value="san-luis">San Luis</option>
+                    <option value="santa cruz">Santa Cruz</option>
+                    <option value="santa-fe">Santa Fe</option>
+                    <option value="santiago-estero">Santiago del Estero</option>
+                    <option value="tierra-fuego">Tierra del Fuego</option>
+                    <option value="tucuman">Tucumán</option>
+                </select>
+                <label for="coment">Indique un Comentario:</label>
+                <textarea class="form__complete" name="comentario" id="coment" cols="30" rows="10"
+                    placeholder="Ingrese un Comentario..."></textarea>
+            </div>
+
+            <div class="form__datos2">
+                <input class="contacto__boton" type="submit" value="Enviar">
+                <input class="contacto__boton" type="reset" value="Restablecer">
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__redes">
+
+            <a class="footer__redes__link" href="http://www.facebook.com/" target="_blank">
+                <img src="../img/facebook.png" width="45px">
+            </a>
+            <a class="footer__redes__link" href="http://www.instagram.com/" target="_blank">
+                <img src="../img/instagram.png" width="45px">
+            </a>
+            <a class="footer__redes__link" href="http://www.linkedin.com/" target="_blank">
+                <img src="../img/linkedin.png" width="45px">
+            </a>
+            <a class="footer__redes__link" href="http://www.twitter.com/" target="_blank">
+                <img src="../img/twitter.png" width="45px">
+            </a>
+
+            <div class="boton__chat">
+                <a href="http://www.whatsapp.com/" target="_blank">
+                    <img src="../img/whatsapp.png" width="55px">
+                </a>
+            </div>
+
+        </div>
+
+        <p class="footer__parrafo">Todos los derechos reservados ©</p>
+
+        <nav class="footer__nav">
+            <a class="footer__nav__link" href="../index.html">Inicio</a>
+            <a class="footer__nav__link" href="contacto.html">Contacto</a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
