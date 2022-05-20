@@ -476,6 +476,10 @@
     align-items: center;
   }
 
+  .main {
+    height: 350px;
+  }
+
   .main__nosotros__card__img {
     width: 300px;
   }
@@ -485,11 +489,11 @@
   }
 
   .header__nav {
-    gap: 20px;
+    gap: 7px;
   }
 
   .header__nav__link {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .footer__nav {
@@ -541,5 +545,9 @@
     width: 400px;
     font-size: 20px;
     font-weight: bold;
+  }
+
+  .parrafo__2 {
+    font-size: 15px;
   }
 }
