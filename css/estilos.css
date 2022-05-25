@@ -231,6 +231,15 @@
   background-color: rgba(54, 52, 52, 0.938);
 }
 
+.titulo__carrusel {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: monospace;
+}
+
 /* ANIMACION LEER MAS */
 
 .container__more {
@@ -278,15 +287,6 @@
 .button:hover::after {
   width: calc(100% + 27px);
   height: calc(100% + 27px);
-}
-
-.titulo__carrusel {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  padding: 30px;
-  font-family: monospace;
 }
 
 /* ----- MARGEN DE LOS TITULOS H2 DE LAS PAGINAS*/
