@@ -7,87 +7,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A-U SRL</title>
     <link rel="short cut icon" href="../img/Logo AU pestaña.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header>
 
-        <div id="logo">
-            <a href="../index.html">
-                <img class="rotate" src="../img/Logo AU.png" alt="Logo" width="120px">
-            </a>
-        </div>
-
-        <nav class="header__nav">
-            <a class="header__nav__link" href="../index.html">Inicio</a>
-            <a class="header__nav__link" href="galeria.html">Galeria</a>
-            <a class="header__nav__link" href="nosotros.html">Nosotros</a>
-            <a class="header__nav__link" href="contacto.html">Contacto</a>
-            <a class="header__nav__link" href="mas-info.html">+Info</a>
+        <nav class="navbar navbar-expand-lg bg-light header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="rotate" src="../img/Logo AU.png" alt="Logo"
+                        width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav header__nav">
+                        <li class="nav-item">
+                            <a class="nav-link active header__nav__link " aria-current="page"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__nav__link " href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__nav__link " href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__nav__link " href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__nav__link" href="mas-info.html">+Info</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle header__nav__link" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Proximamente
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="proximamente.html">2023</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
 
-    <h2 class="titulo__nosotros">Nosotros</h2>
+    <h2 class="titulo__nosotros h2">Nosotros</h2>
 
     <main class="main__nosotros">
 
         <section class="main__nosotros__card">
-            <h3 class="main__nosotros__card__h3">Personal aplicado y formado Profesionalmente</h3>
-            <img class="main__nosotros__card__img" src="../img/istockphoto-157742080-612x612.jpg" alt="">
-            <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
-                impedit
-                debitis aperiam, voluptatum corrupti
-                explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
-                aliquid?</p>
-            <hr>
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/istockphoto-157742080-612x612.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal aplicado y formado Profesionalmente</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nam
+                                veritatis amet officiis aliquid debitis maxime commodi ut quas inventore, rem deserunt
+                                autem aliquam repellat tempora aperiam eum illum reprehenderit. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Eveniet ut expedita repudiandae. Magni maxime magnam,
+                                explicabo optio aspernatur quod maiores nisi accusamus eveniet autem similique eligendi
+                                minus blanditiis sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores nulla aut, nemo doloribus eos quo dicta minima assumenda quia libero dolorem
+                                facilis numquam fugit rerum, a quis consequuntur deleniti nam! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit.</p>
+                            <p class="card-text"><small class="text-muted">01/01/2022</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="main__nosotros__card">
-            <h3 class="main__nosotros__card__h3">Tecnologia de ultima Generacion</h3>
-            <img class="main__nosotros__card__img" src="../img/istockphoto-185284393-612x612.jpg" alt="">
-            <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
-                impedit
-                debitis aperiam, voluptatum corrupti
-                explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
-                aliquid?</p>
-            <hr>
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/istockphoto-185284393-612x612.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Tecnologia de ultima Generacion</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nam
+                                veritatis amet officiis aliquid debitis maxime commodi ut quas inventore, rem deserunt
+                                autem aliquam repellat tempora aperiam eum illum reprehenderit. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Eveniet ut expedita repudiandae. Magni maxime magnam,
+                                explicabo optio aspernatur quod maiores nisi accusamus eveniet autem similique eligendi
+                                minus blanditiis sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores nulla aut, nemo doloribus eos quo dicta minima assumenda quia libero dolorem
+                                facilis numquam fugit rerum, a quis consequuntur deleniti nam! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit.</p>
+                            <p class="card-text"><small class="text-muted">01/01/2022</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="main__nosotros__card">
-            <h3 class="main__nosotros__card__h3">Profesionales del Color</h3>
-            <img class="main__nosotros__card__img" src="../img/istockphoto-1017328564-612x612.jpg" alt="">
-            <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
-                impedit
-                debitis aperiam, voluptatum corrupti
-                explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
-                aliquid?</p>
-            <hr>
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/istockphoto-1017328564-612x612.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Profesionales del Color</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nam
+                                veritatis amet officiis aliquid debitis maxime commodi ut quas inventore, rem deserunt
+                                autem aliquam repellat tempora aperiam eum illum reprehenderit. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Eveniet ut expedita repudiandae. Magni maxime magnam,
+                                explicabo optio aspernatur quod maiores nisi accusamus eveniet autem similique eligendi
+                                minus blanditiis sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores nulla aut, nemo doloribus eos quo dicta minima assumenda quia libero dolorem
+                                facilis numquam fugit rerum, a quis consequuntur deleniti nam! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit.</p>
+                            <p class="card-text"><small class="text-muted">01/01/2022</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="main__nosotros__card">
-            <h3 class="main__nosotros__card__h3">Maximo control de Calidad</h3>
-            <img class="main__nosotros__card__img" src="../img/istockphoto-1217882717-612x612.jpg" alt="">
-            <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
-                impedit
-                debitis aperiam, voluptatum corrupti
-                explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
-                aliquid?</p>
-            <hr>
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/istockphoto-1217882717-612x612.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Maximo control de Calidad</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nam
+                                veritatis amet officiis aliquid debitis maxime commodi ut quas inventore, rem deserunt
+                                autem aliquam repellat tempora aperiam eum illum reprehenderit. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Eveniet ut expedita repudiandae. Magni maxime magnam,
+                                explicabo optio aspernatur quod maiores nisi accusamus eveniet autem similique eligendi
+                                minus blanditiis sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="card-text"><small class="text-muted">01/01/2022</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="main__nosotros__card">
-            <h3 class="main__nosotros__card__h3">KBA-106</h3>
-            <video class="main__nosotros__card__img" src="../media/KBA 106.mp4" autoplay muted loop controls
-                preload=""></video>
-            <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
-                impedit
-                debitis aperiam, voluptatum corrupti
-                explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
-                aliquid?</p>
-            <hr>
+        <div class="main__nosotros__card__video">
+            <section class="main__nosotros__card">
+                <h3 class="main__nosotros__card__h3">KBA-106</h3>
+                <video class="main__nosotros__card__img" src="../media/KBA 106.mp4" autoplay muted loop controls
+                    preload=""></video>
+                <p class="main__nosotros__card__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem
+                    impedit
+                    debitis aperiam, voluptatum corrupti
+                    explicabo esse maiores, molestias amet ut, molestiae delectus officia nisi. Quam porro quis dolores
+                    aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eum cumque deleniti
+                    impedit labore pariatur minus perferendis, illum cum ipsam ad velit voluptate nihil laudantium
+                    minima fugit placeat distinctio delectus?</p>
+        </div>
         </section>
 
     </main>
@@ -124,6 +210,9 @@
             <a class="footer__nav__link" href="contacto.html">Contacto</a>
         </nav>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
     </footer>
 
 </body>
