@@ -1,0 +1,6 @@
+@mixin colores-titulos {
+  color: $color-titulos;
+  background-color: $fondo-titulos;
+  text-align: $text-align;
+  font-weight: $text-weight;
+}

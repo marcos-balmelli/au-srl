@@ -1,0 +1,49 @@
+/* -----HEADER----- */
+
+.header {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  .header__nav {
+    gap: 5px;
+  }
+  .header__nav__link {
+    color: map-get($boton-nav, color);
+    font-size: map-get($boton-nav, size);
+    font-weight: map-get($boton-nav, negrita);
+    background-color: map-get($boton-nav, fondoColor);
+    border-radius: map-get($boton-nav, radio);
+    border: $border-titulo-h2;
+    &:hover {
+      background-color: map-get($boton-nav, hoverFondo);
+      color: map-get($boton-nav, hoverColor);
+    }
+  }
+}
+
+/* -----ANIMACION HEADER: LOGO ROTATE----- */
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

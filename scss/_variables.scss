@@ -1,3 +1,17 @@
 $size-titulo-h2: 50px;
 $border-titulo-h2: solid 2px black;
 $font-titulo-parrafo: monospace;
+$color-titulos: red;
+$fondo-titulos: #def84cde;
+$text-weight: bold;
+$text-align: center;
+
+$boton-nav: (
+  fondoColor: rgba(255, 166, 0, 0.815),
+  radio: 10px,
+  size: 20px,
+  negrita: bold,
+  color: black,
+  hoverFondo: black,
+  hoverColor: white,
+);

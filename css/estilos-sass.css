@@ -5,6 +5,39 @@
 }
 
 /* -----@IMPORT----- */
+/* -----HEADER----- */
+.header {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.header .header__nav {
+  gap: 5px;
+}
+.header .header__nav__link {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(255, 166, 0, 0.815);
+  border-radius: 10px;
+  border: solid 2px black;
+}
+.header .header__nav__link:hover {
+  background-color: black;
+  color: white;
+}
+
+/* -----ANIMACION HEADER: LOGO ROTATE----- */
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 /* -----MAIN INDEX----- */
 .main {
   display: flex;
@@ -154,115 +187,13 @@
   background-color: rgba(54, 52, 52, 0.938);
 }
 
-.titulo__carrusel {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-family: monospace;
-}
-
-/* -----FOOTER----- */
-.footer {
-  background-image: linear-gradient(to left bottom, #2ad8f2, #21e5e4, #50f0ce, #84f8b3, #b7fd97, #c4fe89, #d2fe7b, #e2fd6c, #cafe62, #aefe5c, #8bff59, #5bff5b);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.footer__nav {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
-  margin-right: 50px;
-}
-.footer__nav .footer__nav__link {
-  color: blue;
-  text-decoration: none;
-  font-size: 20px;
-  background-color: rgba(255, 166, 0, 0.815);
-  border-radius: 10px;
-  border: solid 2px black;
-  font-weight: bold;
-}
-.footer__nav .footer__nav__link:hover {
-  background-color: black;
-  color: white;
-}
-
-.footer__parrafo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.footer__redes {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-}
-
-/* -----BOTON CHAT WHATSAPP----- */
-.boton__chat {
-  position: fixed;
-  bottom: 5px;
-  right: 10px;
-  z-index: 10;
-}
-
-/* -----ANIMACION: LOGO ROTATE----- */
-.rotate {
-  animation: rotation 8s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-/* -----HEADER----- */
-.header {
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-}
-.header .header__nav {
-  gap: 5px;
-}
-.header .header__nav__link {
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-weight: bold;
-  background-color: rgba(255, 166, 0, 0.815);
-  border-radius: 10px;
-  border: solid 2px black;
-  font-weight: bold;
-}
-.header .header__nav__link:hover {
-  background-color: black;
-  color: white;
-}
-
-/* ----- MARGEN DE LOS TITULOS H2 DE LAS PAGINAS-----*/
-.h2 {
-  margin-bottom: 0px;
-}
-
 /* -----MAIN GALERIA----- */
-.titulo__galeria {
+.titulo__galeria, .titulo__masinfo, .titulo__contacto, .titulo__nosotros, .titulo__carrusel {
+  color: red;
+  background-color: rgba(222, 248, 76, 0.8705882353);
   text-align: center;
-  font-size: 50px;
   font-weight: bold;
-  color: rgba(22, 66, 14, 0.824);
-  background-color: rgba(3, 154, 192, 0.664);
+  font-size: 50px;
   border: solid 2px black;
   font-family: monospace;
 }
@@ -290,16 +221,6 @@
 }
 
 /* -----MAIN NOSOTROS----- */
-.titulo__nosotros {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: rgba(255, 0, 0, 0.824);
-  background-color: rgba(3, 192, 3, 0.751);
-  border: solid 2px black;
-  font-family: monospace;
-}
-
 .main__nosotros {
   background-color: gray;
   display: grid;
@@ -343,16 +264,6 @@
 }
 
 /* -----MAIN CONTACTO----- */
-.titulo__contacto {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: rgba(0, 225, 255, 0.616);
-  background-color: rgba(192, 3, 28, 0.603);
-  border: solid 2px black;
-  font-family: monospace;
-}
-
 .form {
   background-color: black;
   display: flex;
@@ -376,16 +287,6 @@
 }
 
 /* -----MAIN MAS INFO----- */
-.titulo__masinfo {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: rgba(0, 38, 255, 0.637);
-  background-color: rgba(192, 3, 28, 0.151);
-  border: solid 2px black;
-  font-family: monospace;
-}
-
 .contenedorMasinfo {
   background-color: rgba(53, 44, 104, 0.548);
   padding: 40px;
@@ -401,6 +302,65 @@
   font-size: 20px;
   font-weight: bold;
   font-family: monospace;
+}
+
+/* -----FOOTER----- */
+.footer {
+  background-image: linear-gradient(to left bottom, #2ad8f2, #21e5e4, #50f0ce, #84f8b3, #b7fd97, #c4fe89, #d2fe7b, #e2fd6c, #cafe62, #aefe5c, #8bff59, #5bff5b);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  margin-right: 50px;
+}
+.footer__nav .footer__nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: rgba(255, 166, 0, 0.815);
+  border-radius: 10px;
+  border: solid 2px black;
+  font-weight: bold;
+}
+.footer__nav .footer__nav__link:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer__parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.footer__redes {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* -----BOTON CHAT WHATSAPP----- */
+.boton__chat {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 10;
+}
+
+/* ----- MARGEN DE LOS TITULOS H2 DE LAS PAGINAS-----*/
+.h2 {
+  margin-bottom: 0px;
 }
 
 /* -----@MEDIA QUERY----- */

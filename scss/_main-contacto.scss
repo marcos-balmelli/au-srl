@@ -1,0 +1,27 @@
+/* -----MAIN CONTACTO----- */
+
+.titulo__contacto {
+  @extend .titulo__galeria;
+}
+
+.form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  gap: 40px;
+}
+
+.formEnviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formTextarea {
+  height: 200px;
+}
+
+.botones {
+  gap: 10px;
+}

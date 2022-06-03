@@ -163,10 +163,5 @@
 }
 
 .titulo__carrusel {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-family: $font-titulo-parrafo;
+  @extend .titulo__galeria;
 }
